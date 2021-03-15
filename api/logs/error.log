@@ -1,0 +1,154 @@
+[2021-03-14T13:16:10.517] [ERROR] error - /api/getArticleInfo?id=item.pic GET 500
+      CastError: Cast to ObjectId failed for value "item.pic" at path "_id" for model "article"
+    at model.Query.exec (E:\blog\api\node_modules\_mongoose@5.12.0@mongoose\lib\query.js:4361:21)
+    at model.Query.Query.then (E:\blog\api\node_modules\_mongoose@5.12.0@mongoose\lib\query.js:4455:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+      
+[2021-03-14T15:15:53.065] [ERROR] error - /admin/uploadImg POST 500
+      ReferenceError: mkdir is not defined
+    at uploadImg (E:/blog/api/api/ArticleController.js:211:5)
+    at dispatch (E:\blog\api\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\blog\api\node_modules\_@koa_router@10.0.0@@koa\router\lib\router.js:372:16
+    at dispatch (E:\blog\api\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\blog\api\node_modules\_koa-compose@4.1.0@koa-compose\index.js:34:12
+    at dispatch (E:\blog\api\node_modules\_@koa_router@10.0.0@@koa\router\lib\router.js:377:31)
+    at dispatch (E:\blog\api\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at allowedMethods (E:\blog\api\node_modules\_@koa_router@10.0.0@@koa\router\lib\router.js:433:12)
+    at dispatch (E:\blog\api\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at dispatch (E:\blog\api\node_modules\_@koa_router@10.0.0@@koa\router\lib\router.js:353:32)
+    at dispatch (E:\blog\api\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at allowedMethods (E:\blog\api\node_modules\_@koa_router@10.0.0@@koa\router\lib\router.js:433:12)
+    at dispatch (E:\blog\api\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at dispatch (E:\blog\api\node_modules\_@koa_router@10.0.0@@koa\router\lib\router.js:353:32)
+    at dispatch (E:\blog\api\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at allowedMethods (E:\blog\api\node_modules\_@koa_router@10.0.0@@koa\router\lib\router.js:433:12)
+      
+[2021-03-14T15:19:25.072] [ERROR] error - /images/20210314/ed99bf9c-636a-4d14-9bc9-7b33eec17ff5.jpg GET 500
+      InternalServerError: Internal Server Error
+    at Object.throw (E:\blog\api\node_modules\_koa@2.13.1@koa\lib\context.js:97:11)
+    at exports.default (E:/blog/api/config/errorHandle.js:12:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at E:\blog\api\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+    at cors (E:\blog\api\node_modules\_@koa_cors@3.1.0@@koa\cors\index.js:56:32)
+      
+[2021-03-14T15:20:34.461] [ERROR] error - /images/20210314/9b2365ab-f0d3-4175-83d6-45563614c5d9.jpg GET 500
+      InternalServerError: Internal Server Error
+    at Object.throw (E:\blog\api\node_modules\_koa@2.13.1@koa\lib\context.js:97:11)
+    at exports.default (E:/blog/api/config/errorHandle.js:12:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at E:\blog\api\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+    at cors (E:\blog\api\node_modules\_@koa_cors@3.1.0@@koa\cors\index.js:56:32)
+      
+[2021-03-14T15:21:32.377] [ERROR] error - /images/20210314/9b2365ab-f0d3-4175-83d6-45563614c5d9.jpg GET 500
+      InternalServerError: Internal Server Error
+    at Object.throw (E:\blog\api\node_modules\_koa@2.13.1@koa\lib\context.js:97:11)
+    at exports.default (E:/blog/api/config/errorHandle.js:12:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at E:\blog\api\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+    at cors (E:\blog\api\node_modules\_@koa_cors@3.1.0@@koa\cors\index.js:56:32)
+      
+[2021-03-14T15:23:41.868] [ERROR] error - /images/20210314/7d1f16b7-83be-4799-8907-5838c91486c9.jpg GET 500
+      InternalServerError: Internal Server Error
+    at Object.throw (E:\blog\api\node_modules\_koa@2.13.1@koa\lib\context.js:97:11)
+    at exports.default (E:/blog/api/config/errorHandle.js:12:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at E:\blog\api\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+    at cors (E:\blog\api\node_modules\_@koa_cors@3.1.0@@koa\cors\index.js:56:32)
+      
+[2021-03-14T15:24:21.545] [ERROR] error - /images/20210314/0bf5faea-3ca6-40d5-8543-dd21c12f44fa.jpg GET 500
+      InternalServerError: Internal Server Error
+    at Object.throw (E:\blog\api\node_modules\_koa@2.13.1@koa\lib\context.js:97:11)
+    at exports.default (E:/blog/api/config/errorHandle.js:12:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at E:\blog\api\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+    at cors (E:\blog\api\node_modules\_@koa_cors@3.1.0@@koa\cors\index.js:56:32)
+      
+[2021-03-14T15:24:54.800] [ERROR] error - /images/20210314/9b2365ab-f0d3-4175-83d6-45563614c5d9.jpg GET 500
+      InternalServerError: Internal Server Error
+    at Object.throw (E:\blog\api\node_modules\_koa@2.13.1@koa\lib\context.js:97:11)
+    at exports.default (E:/blog/api/config/errorHandle.js:12:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at E:\blog\api\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+    at cors (E:\blog\api\node_modules\_@koa_cors@3.1.0@@koa\cors\index.js:56:32)
+      
+[2021-03-14T15:32:00.386] [ERROR] error - /public/0bf5faea-3ca6-40d5-8543-dd21c12f44fa.jpg GET 500
+      InternalServerError: Internal Server Error
+    at Object.throw (E:\blog\api\node_modules\_koa@2.13.1@koa\lib\context.js:97:11)
+    at exports.default (E:/blog/api/config/errorHandle.js:12:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at E:\blog\api\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+    at cors (E:\blog\api\node_modules\_@koa_cors@3.1.0@@koa\cors\index.js:56:32)
+      
+[2021-03-14T15:32:09.873] [ERROR] error - /public/login.jpg GET 500
+      InternalServerError: Internal Server Error
+    at Object.throw (E:\blog\api\node_modules\_koa@2.13.1@koa\lib\context.js:97:11)
+    at exports.default (E:/blog/api/config/errorHandle.js:12:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at E:\blog\api\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+    at cors (E:\blog\api\node_modules\_@koa_cors@3.1.0@@koa\cors\index.js:56:32)
+      
+[2021-03-14T15:32:20.220] [ERROR] error - /public/login.jpg GET 500
+      InternalServerError: Internal Server Error
+    at Object.throw (E:\blog\api\node_modules\_koa@2.13.1@koa\lib\context.js:97:11)
+    at exports.default (E:/blog/api/config/errorHandle.js:12:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at E:\blog\api\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+    at cors (E:\blog\api\node_modules\_@koa_cors@3.1.0@@koa\cors\index.js:56:32)
+      
+[2021-03-14T15:34:41.653] [ERROR] error - /public/login.jpg GET 500
+      InternalServerError: Internal Server Error
+    at Object.throw (E:\blog\api\node_modules\_koa@2.13.1@koa\lib\context.js:97:11)
+    at exports.default (E:/blog/api/config/errorHandle.js:12:7)
+    at E:\blog\api\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+    at serve (E:\blog\api\node_modules\_koa-static@5.0.0@koa-static\index.js:53:9)
+    at cors (E:\blog\api\node_modules\_@koa_cors@3.1.0@@koa\cors\index.js:56:32)
+      
+[2021-03-14T15:34:42.983] [ERROR] error - /public/login.jpg GET 500
+      InternalServerError: Internal Server Error
+    at Object.throw (E:\blog\api\node_modules\_koa@2.13.1@koa\lib\context.js:97:11)
+    at exports.default (E:/blog/api/config/errorHandle.js:12:7)
+    at E:\blog\api\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+    at serve (E:\blog\api\node_modules\_koa-static@5.0.0@koa-static\index.js:53:9)
+    at cors (E:\blog\api\node_modules\_@koa_cors@3.1.0@@koa\cors\index.js:56:32)
+      
+[2021-03-14T15:35:06.764] [ERROR] error - /public/login.jpg GET 500
+      InternalServerError: Internal Server Error
+    at Object.throw (E:\blog\api\node_modules\_koa@2.13.1@koa\lib\context.js:97:11)
+    at exports.default (E:/blog/api/config/errorHandle.js:12:7)
+    at E:\blog\api\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+    at serve (E:\blog\api\node_modules\_koa-static@5.0.0@koa-static\index.js:53:9)
+    at cors (E:\blog\api\node_modules\_@koa_cors@3.1.0@@koa\cors\index.js:56:32)
+      
+[2021-03-14T15:35:08.082] [ERROR] error - /public/login.jpg GET 500
+      InternalServerError: Internal Server Error
+    at Object.throw (E:\blog\api\node_modules\_koa@2.13.1@koa\lib\context.js:97:11)
+    at exports.default (E:/blog/api/config/errorHandle.js:12:7)
+    at E:\blog\api\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+    at serve (E:\blog\api\node_modules\_koa-static@5.0.0@koa-static\index.js:53:9)
+    at cors (E:\blog\api\node_modules\_@koa_cors@3.1.0@@koa\cors\index.js:56:32)
+      
+[2021-03-14T15:36:00.753] [ERROR] error - /public/login.jpg GET 500
+      InternalServerError: Internal Server Error
+    at Object.throw (E:\blog\api\node_modules\_koa@2.13.1@koa\lib\context.js:97:11)
+    at exports.default (E:/blog/api/config/errorHandle.js:12:7)
+    at E:\blog\api\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+    at serve (E:\blog\api\node_modules\_koa-static@5.0.0@koa-static\index.js:53:9)
+    at cors (E:\blog\api\node_modules\_@koa_cors@3.1.0@@koa\cors\index.js:56:32)
+      
+[2021-03-14T15:36:01.959] [ERROR] error - /public/login.jpg GET 500
+      InternalServerError: Internal Server Error
+    at Object.throw (E:\blog\api\node_modules\_koa@2.13.1@koa\lib\context.js:97:11)
+    at exports.default (E:/blog/api/config/errorHandle.js:12:7)
+    at E:\blog\api\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+    at serve (E:\blog\api\node_modules\_koa-static@5.0.0@koa-static\index.js:53:9)
+    at cors (E:\blog\api\node_modules\_@koa_cors@3.1.0@@koa\cors\index.js:56:32)
+      
+[2021-03-14T15:38:01.251] [ERROR] error - /images/20210314/832115e0-75fd-4d05-a566-de62589a2012.jpg GET 500
+      InternalServerError: Internal Server Error
+    at Object.throw (E:\blog\api\node_modules\_koa@2.13.1@koa\lib\context.js:97:11)
+    at exports.default (E:/blog/api/config/errorHandle.js:12:7)
+    at E:\blog\api\node_modules\_koa-log4@2.3.2@koa-log4\koa-logger.js:86:7
+    at serve (E:\blog\api\node_modules\_koa-static@5.0.0@koa-static\index.js:53:9)
+    at cors (E:\blog\api\node_modules\_@koa_cors@3.1.0@@koa\cors\index.js:56:32)
+      

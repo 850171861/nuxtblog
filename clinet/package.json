@@ -1,0 +1,35 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.1",
+    "ant-design-vue": "^1.7.2",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-node": "^0.0.1-security",
+    "babel-preset-es2015": "^6.24.1",
+    "core-js": "^3.8.3",
+    "cross-env": "^5.2.1",
+    "dayjs": "^1.10.4",
+    "highlight.js": "^10.5.0",
+    "marked": "^2.0.1",
+    "nuxt": "^2.14.12"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "sass-loader": "^7.3.1"
+  },
+  "config": {
+    "nuxt": {
+        "host": "0.0.0.0",
+        "port": "3000"
+    }
+}
+}
